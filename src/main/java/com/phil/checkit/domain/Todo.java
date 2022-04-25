@@ -24,4 +24,6 @@ public class Todo {
     private LocalDateTime duetime;
     @Enumerated(EnumType.STRING)
     private TodoStatus status;
+    @ManyToOne
+    private User user;
 }

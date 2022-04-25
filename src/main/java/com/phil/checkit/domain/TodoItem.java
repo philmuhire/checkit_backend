@@ -17,4 +17,5 @@ public class TodoItem {
     private String description;
     @ManyToOne
     private Todo todo;
+    private Boolean checked;
 }
